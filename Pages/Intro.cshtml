@@ -1,0 +1,39 @@
+﻿@page
+@model FirstApplication.Pages.IntroModel
+@{
+    ViewData["Title"] = "Introduction";
+}
+
+<h2>
+    You Are Welcomed to the Intro Page
+</h2>
+<h3>
+    Name : Lovepreet Kaur
+</h3>
+<form method= "post">
+    <div>
+        FirstNumber :
+        <input type="number" name="FirstNumber" />
+    </div>
+    <div>
+        SecondNumber :
+    <input type ="number" name="SecondNumber" />
+        </div>
+    <div>
+        Output:
+    <output type ="number " name=" Result"></output>
+        </div>
+    <div>
+        Button:
+        <button type="submit" name="Submit"></button>
+    </div>
+    
+
+</form>
+
+@section Paragraph{ 
+    <div>
+        Paragraph:  
+<p> Creating an application for web is totally new but still it is interesting. </p>
+        </div>
+}
